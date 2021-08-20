@@ -1,0 +1,14 @@
+GOTO TERMINAL THEN TYPE PYTHON
+
+F:\TODO>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from app import db
+>>> db.create_all()
+>>> exit()
+
+REFERENCE TUTORIAL
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#a-minimal-application
+
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#:~:text=SQLAlchemy%20indicates%20the%20source%20of%20an%20Engine%20as,of%20the%20parts%20in%20the%20string%20are%20optional.
+https://jinja.palletsprojects.com/en/2.10.x/templates/
